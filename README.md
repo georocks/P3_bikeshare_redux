@@ -16,3 +16,4 @@
 · Practice Solution #3 for loading and filtering data [https://classroom.udacity.com/nanodegrees/nd104/parts/cd0024/modules/1e4392d9-c759-42d1-8204-aaed736ae199/lessons/ls1727/concepts/7a33cce4-18de-48a4-8aeb-d0c13c972909]
 · Filtering for 5 rows of raw data at a time [https://stackoverflow.com/questions/65480967/how-can-i-display-five-rows-of-data-based-on-user-in-python]
 · Docstring Conventions to aid in standardizing docstrings [https://peps.python.org/pep-0257/]
+· Markdown Quick Reference Cheat Sheet [https://wordpress.com/support/markdown-quick-reference/]

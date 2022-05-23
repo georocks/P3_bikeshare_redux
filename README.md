@@ -1,12 +1,10 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# This project was created on 5.16.2022 and this README file was created on 5.23.2022.
 
-### This project was created on 5.16.2022 and this README file was created on 5.23.2022.
+# The title of this project is P3_bikeshare_redux.
 
-### The title of this project is P3_bikeshare_redux.
+* This project analyzes bikeshare data from three major cities and provides statistics about bikeshare users.
 
-### This project analyzes bikeshare data from three major cities and provides statistics about bikeshare users.
-
-### Files used include bikeshare_submission.py, chicago.csv, new_york_city.csv, washington.csv, and README.md.
+* Files used include bikeshare_submission.py, chicago.csv, new_york_city.csv, washington.csv, and README.md.
 
 ### Here are links to previous work that inspired this code:
 · Udacity mentor Shmuel on provided information on receiving user input for city, [https://knowledge.udacity.com/questions/839312]

@@ -26,7 +26,7 @@ def get_filters():
         if city in cities:
             break
         else:
-            print("Invalid entry. Please enter Chicago, New York City or Washington")
+            print("Invalid entry. Please enter Chicago, New York City or Washington.")
 
     # get user input for month (all, january, february, ... , june)
     while True:
@@ -35,7 +35,7 @@ def get_filters():
         if month in months:
             break
         else:
-            print("Invalid entry. Please enter a valid month (January to June) or 'all' to apply no month filter: ")
+            print("Invalid entry. Please enter a valid month (January through June) or select 'all' to apply no month filter: ")
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:

@@ -26,7 +26,7 @@ def get_filters():
         if city in cities:
             break
         else:
-            print("Invalid entry. Please enter Chicago, New York City or Washington")
+            print("Invalid entry. Please enter Chicago, New York City or Washington.")
 
     # get user input for month (all, january, february, ... , june)
     while True:
@@ -35,7 +35,7 @@ def get_filters():
         if month in months:
             break
         else:
-            print("Invalid entry. Please enter a valid month (January to June) or 'all' to apply no month filter: ")
+            print("Invalid entry. Please enter a valid month (January through June) or select 'all' to apply no month filter: ")
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
@@ -95,14 +95,14 @@ def time_stats(df):
     start_time = time.time()
 
     # display the most common month
-    print("The most common month of travel is ", df['Month'].mode()[0], "\n")
+    print("The most common month for travel is ", df['Month'].mode()[0], "\n")
 
     # display the most common day of week
     print("The most common day for travel is ", df['Day of Week'].mode()[0], "\n")
 
     # display the most common start hour
     df['Hour'] = df['Start Time'].dt.hour
-    print("The most common start hour is ", df['Hour'].mode()[0])
+    print("Most riders start their ride at ", df['Hour'].mode()[0])
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -135,10 +135,10 @@ def trip_duration_stats(df):
     start_time = time.time()
 
     # display total travel time
-    print("The total travel time in minutes is ", df['Trip Duration'].sum() / 60, "\n")
+    print("The total travel time in hours is ", df['Trip Duration'].sum() / 3600, "\n")
 
     # display mean travel time
-    print("The average trip time in minutes is ", df['Trip Duration'].mean() / 60, "\n")
+    print("The average trip time in hours is ", df['Trip Duration'].mean() / 3600, "\n")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
